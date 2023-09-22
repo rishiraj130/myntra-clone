@@ -1,0 +1,37 @@
+.filterHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 1.2rem;
+}
+
+.filterSectionContainer {
+  width: 17rem;
+  position: sticky;
+  bottom: 0;
+  min-width: 17rem;
+}
+
+.filtersText {
+  font-weight: bold;
+  padding-left: 1.6rem;
+  font-size: 0.9rem;
+}
+
+.clearAllText {
+  margin-left: auto;
+  padding-right: 0.8rem;
+  font-size: 0.76rem;
+  font-weight: bold;
+  color: #FF406B;
+}
+
+.clearAllText:hover {
+  cursor: pointer;
+}
+
+.filterBox {
+  width: 100%;
+  border-top: 1px solid #E9E9ED;
+  border-right: 1px solid #E9E9ED;
+}

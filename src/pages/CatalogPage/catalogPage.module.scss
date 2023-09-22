@@ -1,0 +1,53 @@
+.pageContainer {
+  padding: 7rem 0rem 4rem 7rem;
+}
+
+.headerContainer {
+  display: flex;
+  padding-left: 1.6rem;
+  font-size: 0.94rem;
+  align-items: center;
+}
+
+.headerTitle {
+  font-weight: bold;
+  color: #282D3F;
+}
+
+.headerTotalCount {
+  color: gray;
+  padding-left: 0.4rem;
+}
+
+.bodyContainer {
+  display: flex;
+  margin-top: 2rem;
+  align-items: flex-end;
+}
+
+.error {
+  font-size: x-large;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  margin-top: 4rem;
+}
+
+.loadingContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewToggleContainer {
+  margin-left: auto;
+  margin-right: 4rem;
+}
+
+.toggle {
+  :global(.MuiToggleButton-root.Mui-selected) {
+    background-color: white;
+    color: #FF406B;
+  }
+}

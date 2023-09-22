@@ -1,0 +1,31 @@
+.container {
+  padding: 1rem 0 0.6rem 1.3rem;
+  border-bottom: 1px solid #E9E9ED;
+}
+
+.personasLabel {
+   :global(.MuiFormControlLabel-label) {
+    font-size: 0.8rem;
+    font-weight: bold;
+     color: #282D3F;
+  }
+}
+
+.discountLabel {
+  :global(.MuiFormControlLabel-label) {
+    font-size: 0.8rem;
+    color: #282D3F;
+  }
+}
+
+.containerHeader {
+  display: flex;
+  padding-bottom: 0.8rem;
+  align-items: center;
+}
+
+.containerTitle {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #282D3F;
+}

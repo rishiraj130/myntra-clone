@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+}
+
+
+.selectContainer {
+  margin-left: auto;
+  margin-right: 1.6rem;
+}
+
+
+.selectInputBase {
+  :global(.MuiInputBase-root) {
+    width: 16.5rem;
+    border-radius: 0;
+  }
+
+  :global(.MuiInputBase-input) {
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    word-spacing: -1px;
+  }
+
+}
+
+.sortByText {
+  font-size: 0.8rem;
+  color: #282D3F;
+}
+
+.labelText {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 0.2rem;
+  color: #282D3F;
+}
+
+.label {
+  font-size: 0.8rem;
+}
+
+.filterTagsContainer {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  width: 73%;
+}
+
+.tagContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #D6D7DA;
+  border-radius: 4rem;
+  word-spacing: -1px;
+  height: 1rem;
+  margin-right: 0.6rem;
+}
+
+.tagLabel {
+  font-size: 0.7rem;
+  color: #3E4252;
+}
+
+.tagContainer:hover {
+  border: 1px solid #989a9a;
+  cursor: default;
+}
+
+.crossIconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.crossIconContainer:hover {
+  cursor: pointer;
+}

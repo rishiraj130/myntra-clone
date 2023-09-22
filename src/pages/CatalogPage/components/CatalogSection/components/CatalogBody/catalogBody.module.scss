@@ -1,0 +1,71 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 3rem;
+  gap: 2.5rem;
+}
+
+.productCardContainer {
+   height: 20rem;
+   width: 15rem;
+}
+
+.imageContainer {
+  height: 13rem;
+  width: 15rem;
+  position: relative;
+}
+
+.productDetails {
+  padding-top: 0.6rem;
+  padding-left: 0.6rem;
+};
+
+.priceDetails {
+  padding-top: 0.4rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.productTitle {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #282D3F;
+}
+
+.productDescription {
+  font-size: 0.8rem;
+  color: #535766;
+}
+
+.newPrice{
+  font-weight: bold;
+  word-spacing: -1.4px;
+  margin-right: 0.4rem;
+}
+
+.oldPrice {
+  font-size: 0.75rem;
+  margin-right: 0.4rem;
+  color: #7E818C;
+  text-decoration: line-through;
+}
+
+.discount {
+  font-size: 0.75rem;
+  color: #FF935E;
+}
+
+.rating {
+  position: absolute;
+  display: flex;
+  height: 1.2rem;
+  bottom: 0.6rem;
+  left: 1rem;
+  background: white;
+  align-items: center;
+  opacity: 95%;
+  font-size: 0.7rem;
+  font-weight: 600;
+}

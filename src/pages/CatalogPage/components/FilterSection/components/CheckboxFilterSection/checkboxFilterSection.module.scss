@@ -1,0 +1,63 @@
+.container {
+  padding: 1rem 0 0.2rem 1.3rem;
+  border-bottom: 1px solid #E9E9ED;
+}
+
+.containerHeader {
+  display: flex;
+  padding-bottom: 0.6rem;
+  align-items: center;
+}
+
+.containerTitle {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #282D3F;
+}
+
+.searchIconContainer {
+    margin-left: auto;
+    margin-right: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    background: #F5F5F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.sectionFooter {
+  font-size: 0.9rem;
+  color: #FF406B;
+  padding: 0.6rem 0 0.6rem 1.2rem;
+  word-spacing: -1px;
+}
+
+.filterName {
+  color: #282D3F;
+  font-size: 0.8rem;
+  word-spacing: -1px;
+}
+
+.resultsCount {
+  color: #93969F;
+  padding-left: 0.3rem;
+  font-size: 0.7rem;
+}
+
+.filterColor {
+  display: block;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-right: 0.4rem;
+  border-radius: 50%;
+}
+
+
+.checkboxLabel {
+  :global(.MuiFormControlLabel-label) {
+    display: flex;
+    align-items: center;
+  }
+}
